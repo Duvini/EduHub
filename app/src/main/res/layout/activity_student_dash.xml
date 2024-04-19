@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".StudentDash">
+
+    <ImageView
+        android:id="@+id/imageView13"
+        android:layout_width="match_parent"
+        android:layout_height="259dp"
+        android:background="@color/white"
+        android:scaleType="centerCrop"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@mipmap/ic_launcher_top_bg_foreground" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout5"
+        android:layout_width="324dp"
+        android:layout_height="449dp"
+        android:layout_marginBottom="4dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <TextView
+            android:id="@+id/viewCourse"
+            android:layout_width="281dp"
+            android:layout_height="42dp"
+            android:layout_marginLeft="30sp"
+            android:layout_marginTop="16sp"
+            android:layout_marginRight="30sp"
+            android:background="@drawable/btn2"
+
+            android:drawableStart="@drawable/ic_baseline_menu_book_24df"
+            android:fontFamily="@font/oswald"
+            android:paddingStart="5sp"
+            android:paddingTop="8sp"
+            android:text="View Courses"
+            android:textAlignment="center"
+            android:textColor="@color/Pcolor"
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/yourCourse"
+            android:layout_width="281dp"
+            android:layout_height="42dp"
+            android:layout_marginLeft="30sp"
+            android:layout_marginTop="16sp"
+            android:layout_marginRight="30sp"
+            android:background="@drawable/btn2"
+
+            android:drawableStart="@drawable/ic_baseline_bookmarks_24book"
+            android:fontFamily="@font/oswald"
+            android:paddingStart="5sp"
+            android:paddingTop="8sp"
+            android:text="Your Courses"
+            android:textAlignment="center"
+            android:textColor="@color/Pcolor"
+            android:textSize="24sp" />
+
+
+        <TextView
+            android:id="@+id/viewQuizzes"
+            android:layout_width="281dp"
+            android:layout_height="42dp"
+            android:layout_marginLeft="30sp"
+            android:layout_marginTop="16sp"
+            android:layout_marginRight="30sp"
+            android:background="@drawable/btn2"
+
+            android:drawableStart="@drawable/ic_baseline_checklist_rtl_24ceck"
+            android:fontFamily="@font/oswald"
+            android:paddingStart="5sp"
+            android:paddingTop="5sp"
+            android:text="View Quizzes"
+            android:textAlignment="center"
+            android:textColor="@color/Pcolor"
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/addblog"
+            android:layout_width="281dp"
+            android:layout_height="42dp"
+            android:layout_marginLeft="30sp"
+            android:layout_marginTop="16sp"
+            android:layout_marginRight="30sp"
+            android:background="@drawable/btn2"
+
+            android:drawableStart="@drawable/ic_baseline_post_add_24pp"
+            android:fontFamily="@font/oswald"
+            android:paddingStart="5sp"
+            android:paddingTop="5sp"
+            android:text="Add blog"
+            android:textAlignment="center"
+            android:textColor="@color/Pcolor"
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/viewBlog"
+            android:layout_width="281dp"
+            android:layout_height="42dp"
+            android:layout_marginLeft="30sp"
+            android:layout_marginTop="16sp"
+            android:layout_marginRight="30sp"
+            android:background="@drawable/btn2"
+
+            android:drawableStart="@drawable/ic_baseline_bookmarks_24book"
+            android:fontFamily="@font/oswald"
+            android:paddingStart="5sp"
+            android:paddingTop="5sp"
+            android:text="View blog"
+            android:textAlignment="center"
+            android:textColor="@color/Pcolor"
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/addBookz"
+            android:layout_width="281dp"
+            android:layout_height="42dp"
+            android:layout_marginLeft="30sp"
+            android:layout_marginTop="16sp"
+            android:layout_marginRight="30sp"
+            android:background="@drawable/btn2"
+
+            android:drawableStart="@drawable/ic_baseline_add_to_photos_24e"
+            android:fontFamily="@font/oswald"
+            android:paddingStart="5sp"
+            android:paddingTop="5sp"
+            android:text="Add Book"
+            android:textAlignment="center"
+            android:textColor="@color/Pcolor"
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/viewBook"
+            android:layout_width="281dp"
+            android:layout_height="42dp"
+            android:layout_marginLeft="30sp"
+            android:layout_marginTop="16sp"
+            android:layout_marginRight="30sp"
+            android:background="@drawable/btn2"
+
+            android:drawableStart="@drawable/ic_baseline_bookmarks_24book"
+            android:fontFamily="@font/oswald"
+            android:paddingStart="5sp"
+            android:paddingTop="5sp"
+            android:text="View Books"
+            android:textAlignment="center"
+            android:textColor="@color/Pcolor"
+            android:textSize="24sp" />
+
+
+    </LinearLayout>
+
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="177dp"
+        android:layout_height="148dp"
+        android:layout_marginBottom="8dp"
+        app:layout_constraintBottom_toTopOf="@+id/linearLayout5"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/get_started" />
+
+    <TextView
+        android:id="@+id/user_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="12dp"
+        android:fontFamily="@font/oswald"
+        android:text=""
+        android:textColor="@color/pgrey"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/imageView7"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageView
+        android:id="@+id/Saccount"
+        android:layout_width="79dp"
+        android:layout_height="74dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ic_launcher_leeduac_foreground" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

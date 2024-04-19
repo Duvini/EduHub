@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".SingleQuizStd">
+
+    <ImageView
+        android:id="@+id/imageView8"
+        android:layout_width="435dp"
+        android:layout_height="326dp"
+        android:scaleType="centerCrop"
+
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/img" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="173dp"
+        android:layout_height="67dp"
+        android:layout_marginStart="58dp"
+        android:layout_marginTop="80dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/single_quiz1" />
+
+    <TextView
+        android:id="@+id/Quest"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="153dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="154dp"
+        android:fontFamily="@font/oswald"
+        android:textColor="#D8DDE2"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:text="Question" />
+
+    <TextView
+        android:id="@+id/viewQuestion"
+        android:layout_width="397dp"
+        android:layout_height="124dp"
+        android:layout_margin="20sp"
+        android:layout_marginTop="20dp"
+        android:fontFamily="@font/oswald"
+        android:padding="30sp"
+        android:text="Ques"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView4" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="97dp"
+        android:layout_height="53dp"
+        android:layout_marginBottom="88dp"
+        android:backgroundTint="@color/p_grey"
+        android:fontFamily="@font/oswald"
+        android:text="@string/Next"
+        android:textAlignment="center"
+        android:textColor="#FEFEFE"
+        android:textSize="20sp"
+        app:background="@drawable/btn1"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.489"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/opt01"
+        android:layout_width="360dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="44dp"
+        android:fontFamily="@font/oswald"
+        android:text="Option 01"
+        android:textAlignment="center"
+        android:textColor="@color/pgrey"
+        android:textSize="16sp"
+        app:background="@color/Pcolor"
+        app:backgroundTint="@color/Pcolor"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView8" />
+
+    <Button
+        android:id="@+id/opt02"
+        android:layout_width="360dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="27dp"
+        android:fontFamily="@font/oswald"
+        android:text="Option 02"
+        android:textAlignment="center"
+        android:textColor="@color/pgrey"
+        android:textSize="16sp"
+        app:background="@color/Pcolor"
+        app:backgroundTint="@color/Pcolor"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/opt01" />
+
+    <Button
+        android:id="@+id/opt03"
+        android:layout_width="360dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="8dp"
+        android:fontFamily="@font/oswald"
+        android:text="Option 03"
+        android:textAlignment="center"
+        android:textColor="@color/pgrey"
+        android:textSize="16sp"
+        app:background="@color/Pcolor"
+        app:backgroundTint="@color/Pcolor"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/opt02" />
+
+    <Button
+        android:id="@+id/opt04"
+        android:layout_width="360dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginBottom="100dp"
+        android:fontFamily="@font/oswald"
+        android:text="Option 04"
+        android:textAlignment="center"
+        android:textColor="@color/pgrey"
+        android:textSize="16sp"
+        app:background="@color/Pcolor"
+        app:backgroundTint="@color/Pcolor"
+        app:layout_constraintBottom_toTopOf="@+id/button"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/opt03"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <ImageView
+        android:id="@+id/backimg66"
+        android:layout_width="82dp"
+        android:layout_height="65dp"
+        app:srcCompat="@drawable/back"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="15dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

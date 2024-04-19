@@ -1,0 +1,38 @@
+<resources>
+    <string name="app_name">Education</string>
+
+    <string name="login">Login</string>
+    <string name="password">password</string>
+    <string name="email">email</string>
+    <string name="login2">Login</string>
+    <string name="register">Register</string>
+    <string name="register2">Register</string>
+    <string name="repassword">repassword</string>
+    <string name="not_registered_yet_signup">not registered yet? signup</string>
+    <string name="grade">grade</string>
+    <string name="zoom_link">Zoom Link</string>
+    <string name="subject">subject</string>
+    <string name="time">Time</string>
+    <string name="date">Date</string>
+    <string name="add_class">Add class</string>
+    <string name="title_activity_student_home">studentHome</string>
+
+
+
+    <string name="get_started">Get Started</string>
+    <string name="getStarted2">As a teacher, you can use EduX to share your knowledge and expertise with students who are eager to learn.</string>
+    <string name="GetStarted">Welcome to EduX, the ultimate learning platform for students in Sri Lanka! Here, you can access free courses and borrow books from generous donors who want to help you succeed.</string>
+    <string name="getStarted3">As a donor, you can use EduX to give back to your community by sharing your unused books with students who need them</string>
+    <string name="AddQuizInfo">Quiz Informations</string>
+    <string name="QuizName">Enter Quiz name</string>
+    <string name="NoOfQuestions">Enter No.of Questions</string>
+    <string name="GradeQuiz">Enter Grade</string>
+    <string name="Course">Enter Course</string>
+    <string name="CreateQuiz">Create Quiz</string>
+    <string name="BookTitle">Enter Book Title</string>
+    <string name="add_quizes">Add Quizes</string>
+    <string name="subti">"Take the Opportunity build your future with us\n Are You Ready?"</string>
+    <string name="Next">"Next"</string>
+    <string name="quizes1">"Quizes 01"</string>
+
+</resources>

@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/logo_round"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/logo_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Education"
+        tools:targetApi="31">
+        <activity
+            android:name=".BookView"
+            android:exported="false" />
+        <activity
+            android:name=".SingleQuizStd"
+            android:exported="false" />
+        <activity
+            android:name=".ViewQuiz"
+            android:exported="false" />
+        <activity
+            android:name=".QuizInfro"
+            android:exported="false" />
+        <activity
+            android:name=".SplashScreen"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".StudentProgress"
+            android:exported="false" />
+        <activity
+            android:name=".ViewQuizStd"
+            android:exported="false" />
+        <activity
+            android:name=".CourseList"
+            android:exported="false" />
+        <activity
+            android:name=".ReadBook"
+            android:exported="false" />
+        <activity
+            android:name=".BookEdits"
+            android:exported="false" />
+        <activity
+            android:name=".AddBlog"
+            android:exported="false" />
+        <activity
+            android:name=".AddBook"
+            android:exported="false" />
+        <activity
+            android:name=".StudentHome"
+            android:exported="false" />
+        <activity
+            android:name=".StdCourseOverview"
+            android:exported="false" />
+        <activity
+            android:name=".StudentDash"
+            android:exported="false" />
+        <activity
+            android:name=".RegisterTeacher"
+            android:exported="false" />
+        <activity
+            android:name=".Register"
+            android:exported="false" />
+        <activity
+            android:name=".Login"
+            android:exported="false" />
+        <activity
+            android:name=".LoginView"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="false" />
+    </application>
+
+</manifest>

@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/sk1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".BookView">
+
+    <ImageView
+        android:id="@+id/imageView13"
+        android:layout_width="match_parent"
+        android:layout_height="259dp"
+        android:scaleType="centerCrop"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@mipmap/ic_launcher_top_bg_foreground" />
+
+    <TextView
+        android:id="@+id/REbook"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_marginTop="36dp"
+        android:fontFamily="@font/oswald"
+        android:text="Book List"
+        android:textColor="#FEFEFE"
+        android:textSize="45sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/imageView13" />
+
+    <ImageView
+        android:id="@+id/backimg55"
+        android:layout_width="78dp"
+        android:layout_height="66dp"
+        app:srcCompat="@drawable/back"
+        tools:layout_editor_absoluteY="38dp" />
+
+    <ImageView
+        android:id="@+id/imageView15"
+        android:layout_width="157dp"
+        android:layout_height="155dp"
+        android:layout_marginTop="64dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/REbook"
+        app:srcCompat="@drawable/ic_launcher_leedu_foreground" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout4"
+        android:layout_width="84dp"
+        android:layout_height="348dp"
+        android:layout_marginStart="36dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView15"
+        app:layout_constraintVertical_bias="0.484">
+
+        <ImageView
+            android:id="@+id/imageView20"
+            android:layout_width="83dp"
+            android:layout_height="85dp"
+            app:srcCompat="@drawable/ic_baseline_menu_book_24df" />
+
+        <ImageView
+            android:id="@+id/imageView18"
+            android:layout_width="83dp"
+            android:layout_height="85dp"
+            app:srcCompat="@drawable/ic_baseline_menu_book_24df" />
+
+        <ImageView
+            android:id="@+id/imageView19"
+            android:layout_width="83dp"
+            android:layout_height="85dp"
+            app:srcCompat="@drawable/ic_baseline_menu_book_24df" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="157dp"
+        android:layout_height="301dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.326"
+        app:layout_constraintStart_toEndOf="@+id/linearLayout4"
+        app:layout_constraintTop_toBottomOf="@+id/imageView15"
+        app:layout_constraintVertical_bias="0.458">
+
+        <TextView
+            android:id="@+id/CoursesH1"
+            android:layout_width="wrap_content"
+            android:layout_height="84dp"
+            android:fontFamily="@font/oswald"
+            android:text="01.IT Project"
+            android:textColor="@color/fontBlue1"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/cour2"
+            android:layout_width="wrap_content"
+            android:layout_height="84dp"
+            android:fontFamily="@font/oswald"
+            android:text="02.Probability"
+            android:textColor="@color/fontBlue1"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/crs3"
+            android:layout_width="wrap_content"
+            android:layout_height="82dp"
+            android:fontFamily="@font/oswald"
+            android:text="03.Skills Data"
+            android:textColor="@color/fontBlue1"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
